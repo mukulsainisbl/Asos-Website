@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    border:  2px solid black;  
+    display: flex;
+    background-image: linear-gradient(lightblue,grey);
+    
+    gap: 2%;
+}
+
+#navabr >  div{
+    height:1rem;
+}
+.left-side{
+    /* border: 1px solid green; */
+    width: 30%;
+    gap:1.5rem;
+    justify-content:center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-side a{
+    text-decoration: none;
+     color:white;
+     
+}
+.left-side a:hover{
+    color: red;
+}
+
+.center{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content:center;
+    width: 50%;
+
+}
+.center > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.center > div > input{
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.right-side{
+    width: 20%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: start;
+    padding: 1rem 0rem;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#navbar2{
+    display: flex;
+    height: 30px;
+    gap: 1%;
+    border: 1px solid black;
+    background-color: rgb(82,80,80);
+    padding: 0px 5%;
+}
+
+#navbar2 > div > button >  a {
+   text-decoration: none;
+   font-size:1.1rem;
+   background-color: rgb(82,80,80);
+   color: white; 
+}
+#navbar2 > div > button{
+    border: none;
+    text-decoration: none;
+}
+
+#navbar2 > div :hover{ 
+    color: black;
+  
+ 
+}
+
+#pink-container{
+    background-color: rgb(255,56,92);
+    height:auto;
+}
+
+#sale-container{
+    display: flex;
+    background-color:rgb(255,56,92) ;
+   justify-content: space-between;
+   padding:0px 2%;
+   align-items: center;
+   height: 50px;
+   text-align: center;
+    
+}
+#sale-container > button{
+    background-color:grey;
+    padding: 5px 25px;
+    margin: 0px 100px;
+    border: none;
+    border: 3px solid black;
+    display: flex;
+    font-weight: 600;
+    color: white;
+    
+}
+
+#sale-container > button:hover{
+    background-color: wheat;
+    color:black;
+}
+
+#pink-container{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 2%;
+    text-align: center;
+
+}
+#pink-container >  div > h1{
+    font-size:50px;
+}
+
+#pink-container >  div > h1:hover{
+    color:lightblue;
+    font-style: normal;
+}
+#pink-container >  div > h1~h3{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+}
+#pink-container > div  > button{
+        background-color:white;
+        border: none;
+        color:black;
+        padding: 16px 32px;
+        text-align: center;
+        border-radius:10px;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;    
+}
+
+#pink-container > div  > button:hover{
+    font-weight: 700;
+    background-color:lightpink;
+    
+}
+
+#pink-card-container{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255,56,92) ;
+    gap:1%;
+    height:auto;
+}
+
+#pink-card-container > div{
+    width: 180px;
+
+
+}
+
+
+#pink-card-container > div > img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.pink-card-container-button{
+    background-color:rgb(255,56,92) ;
+    display: flex;
+    justify-content: center;
+    padding: 20px 60px; 
+}
+
+.pink-card-container-button > button{
+    background-color: white;
+    color:black;
+    padding: 16px 32px;
+    font-weight: 800;
+    border: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* details container */
+
+#detail-container{
+    display: flex;
+    justify-content: center;
+    border: 2xp solid green;
+    text-align: center;
+    gap: 4%;
+    margin-top:4%;
+}
+
+
+
+
+
+#detail-container > div{
+  width: 230px;
+  height: 300px;
+}
+
+
+#detail-container > div > img{
+    width: 100%;
+    border: 1px solid grey;
+}
+
+#detail-container > div > h3{
+    padding-top: 15px;
+    font-weight: 800;
+    font-size:1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#detail-container > div >p{
+font-size: 16px;
+padding-top: 11px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* SECOND PINK CONTAINER */
+
+#second-pink-container{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+   margin-top:8%;
+   text-align: center;
+   /* background-color:rgb(228, 12, 52) ; */
+   background-image: linear-gradient(#FD4F72 ,#F980A2 );
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* #second-pink-container > div > button{
+   padding:1rem 4rem;
+   margin: 10px;
+   border-radius: 12px;
+   background-color: transparent;
+
+
+} */
+
+.second-pink-container-button1> button{
+  
+    padding:1rem 4rem;
+    margin: 10px;
+    border-radius: 15px;
+    background-color:white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     border: none;
+     border: 1px solid black;
+     cursor: pointer; 
+     font-size: 1rem;
+}
+.second-pink-container-button1> button:hover{
+    color: white;
+    background-color:black;
+}
+
+.second-pink-container-button2> button{
+
+     border: none;
+     border: 1px solid grey;
+    padding:1rem 6rem;
+    margin: 10px;
+   
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.899);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+
+.second-pink-container-button2> button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* SHOPPING CONTAINER */
+
+#shopping-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    gap: 5%;
+}
+
+#shopping-container > div{
+    width: 500px;
+    height: 800px;
+}
+
+#shopping-container > div > img{
+    width: 100%;
+}
+
+#shopping-container > div >h1{
+    margin-top: 0.7rem;
+}
+
+
+#shopping-container > div > p{
+    margin-top: 0.3rem;
+    font-size:1.5rem;
+}
+
+
+#shopping-container > div > button{
+    margin-top: 0.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 700;
+    border: 2px solid black;
+    background-color: transparent;
+    transition: ease-in 0.3s;
+}
+
+#shopping-container > div > button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Trending-container */
+
+#trending-brand-container{
+    margin-top:5%;
+}
+.trending-brand-container-heading{
+    text-align: center;
+}
+
+.trending-brand-container-images{
+    display: flex;
+    justify-content: center;
+}
+
+.trending-brand-container-images > div{
+      width: 150px;
+      height: 150px;
+      margin: auto;
+    
+      margin: 1.5rem;
+}
+
+
+.trending-brand-container-images > div > img{
+  width: 100%;
+}
+
+/* Payment-container */
+
+#paymment-container{
+    /* border: 2px solid black; */
+    display: flex;
+    border-top: 1px solid grey;
+    
+}
+
+.paymment-container-social{
+    display: flex;
+    width:50%;
+    justify-content: end;
+    padding-right: 1rem ;
+    gap: 1rem;
+    border-right:2px solid  grey;
+   
+
+}
+.paymment-container-social > div{
+    height: 40px;
+    width: 40px;
+}
+
+
+.paymment-container-social > div > a > img{
+    width: 100%;
+}
+
+.paymment-container-payment > div >  a > img{
+    width: 100%;
+}
+
+
+.paymment-container-payment > div{
+     width: 50px;
+     height: 50px;
+}
+
+.paymment-container-payment{
+    display: flex;
+ 
+   
+    width: 50%; 
+    justify-content: start;
+    padding-left: 1rem;
+    gap: 1rem;
+    
+}
+
+/* footer-Container */
+#footer-container{
+    display:flex;
+    justify-content: center;
+   
+    margin: auto;
+    background-color:rgb(238,238,238) ;
+}
+#footer-container > section{
+    width: 25%;
+    padding:0px 3rem;
+}
+#footer-container > section a {
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    margin: 1rem;
+    
+}
+#footer-container > section >  a > p > img{
+    width: 15px;
+    height: 15px;
+    display:inline-block;
+    
+}
+
