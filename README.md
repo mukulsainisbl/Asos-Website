@@ -20,7 +20,7 @@ This is a **static UI clone** of the popular ASOS e-commerce website. The projec
 ✅ **No JavaScript** - Purely HTML & CSS-based project.  
 
 ## 📸 Screenshots
-![ScreenShot1](https://drive.google.com/file/d/1s9T8iZYB4UtQ5YguqM30o-Gj4XZm6-vl/view?usp=sharing)  
+![ScreenShot1](https://drive.google.com/uc?export=download&id=1s9T8iZYB4UtQ5YguqM30o-Gj4XZm6-vl)  
 ![ScreenShot2](https://drive.google.com/uc?export=download&id=1euvPcv_OGfP6l7H3lkafsMn5wIG9F_QS)  
 
 ## 🔧 Installation & Setup
